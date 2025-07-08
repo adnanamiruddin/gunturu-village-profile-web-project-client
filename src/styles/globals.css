@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+}
+
+@layer base {
+  div.sanitized-content h1,
+  div.sanitized-content h2,
+  div.sanitized-content h3,
+  div.sanitized-content h4,
+  div.sanitized-content h5,
+  div.sanitized-content h6,
+  div.sanitized-content p,
+  div.sanitized-content ul,
+  div.sanitized-content ol,
+  div.sanitized-content li {
+    all: revert;
+    font-weight: normal;
+  }
+  /* Alignment Styles */
+  div.sanitized-content .ql-align-right {
+    text-align: right;
+  }
+  div.sanitized-content .ql-align-center {
+    text-align: center;
+  }
+  div.sanitized-content .ql-align-justify {
+    text-align: justify;
+  }
+
+  /* Quill Font Styles */
+  div.sanitized-content .ql-font-serif {
+    font-family: serif;
+  }
+  div.sanitized-content .ql-font-monospace {
+    font-family: monospace;
+  }
+  div.sanitized-content .ql-font-sans {
+    font-family: sans-serif;
+  }
+  /* Custom Fonts */
+  div.sanitized-content .ql-font-poppins {
+    font-family: "Poppins", sans-serif;
+  }
+  div.sanitized-content .ql-font-roboto {
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
