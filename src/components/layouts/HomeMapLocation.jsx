@@ -7,7 +7,7 @@ export default function HomeMapLocation() {
   useEffect(() => {
     if (!mapRef.current) {
       mapRef.current = L.map("map").setView(
-        [-5.371504347245825, 120.38505908492334],
+        [-5.371722904929127, 120.38502152884314],
         13
       );
 
@@ -23,7 +23,7 @@ export default function HomeMapLocation() {
         popupAnchor: [0, -50],
       });
 
-      const marker = L.marker([-5.371504347245825, 120.38505908492334], {
+      const marker = L.marker([-5.371722904929127, 120.38502152884314], {
         icon: customIcon,
       })
         .addTo(mapRef.current)

@@ -213,8 +213,8 @@ export default function DashboardInfographicsPage() {
           <div className="w-1/2">
             <Input
               disabled
-              label="Jumlah Lingkungan"
-              placeholder="Masukkan jumlah lingkungan..."
+              label="Jumlah Dusun"
+              placeholder="Masukkan jumlah dusun..."
               name="totalEnvironment"
               value={dataForm.values.totalEnvironment}
               onChange={dataForm.handleChange}
@@ -232,7 +232,7 @@ export default function DashboardInfographicsPage() {
 
         <div className="border-b-2 border-gray-400 pb-6">
           <h3 className="mt-6 font-semibold text-2xl">
-            Data Distribusi Penduduk per Lingkungan
+            Data Distribusi Penduduk per Dusun
           </h3>
 
           <div className="flex gap-5">

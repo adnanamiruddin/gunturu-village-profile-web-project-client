@@ -265,7 +265,7 @@ export default function HomePage() {
               LOKASI DESA GUNTURU
             </h1>
             <p className="text-center mb-4 px-6 md:text-start md:px-0 md:text-lg">
-              Menampilkan peta desa dengan kantor lurah sebagai patokan
+              Menampilkan peta desa dengan kantor desa sebagai patokan
             </p>
 
             <div>
@@ -353,7 +353,7 @@ export default function HomePage() {
                 <div className="w-[20%] mx-auto">
                   <HomePopulationAdministration
                     amount={infograpichsData.totalEnvironment}
-                    type="Lingkungan"
+                    type="Dusun"
                   >
                     <AiOutlineEnvironment className="text-5xl md:text-8xl" />
                   </HomePopulationAdministration>

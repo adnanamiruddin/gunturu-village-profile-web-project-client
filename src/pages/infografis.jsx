@@ -120,7 +120,7 @@ export default function InfographicsPage() {
               <div className="col-span-2 md:w-[20%] mx-auto">
                 <PopulationAdministration
                   amount={infographicsData.totalEnvironment}
-                  type="Lingkungan"
+                  type="Dusun"
                 >
                   <AiOutlineEnvironment className="text-6xl md:text-9xl" />
                 </PopulationAdministration>
@@ -129,7 +129,7 @@ export default function InfographicsPage() {
 
             <div className="mb-6">
               <h2 className="text-xl text-center font-semibold mb-2 md:text-3xl md:mb-4">
-                Distribusi Penduduk per Lingkungan
+                Distribusi Penduduk per Dusun
               </h2>
               <EnvironmentDiagramChart
                 maleArrayData={environmentMaleArrayData}
