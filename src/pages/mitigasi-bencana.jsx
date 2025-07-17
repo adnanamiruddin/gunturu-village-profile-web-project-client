@@ -49,7 +49,7 @@ export default function DisasterMitigationPage() {
               src={
                 disasterMitigationData.coverImageURL || "/image-home-hero.jpg"
               }
-              alt="Peta Mitigasi Bencana Gunturu"
+              alt="Peta Mitigasi Bencana Desa Gunturu"
               width={500}
               height={500}
               className="w-full h-full object-contain rounded md:w-[70%] md:h-[32rem] md:mx-auto"

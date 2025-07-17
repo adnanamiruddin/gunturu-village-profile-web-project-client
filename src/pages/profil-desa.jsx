@@ -82,8 +82,8 @@ export default function VillageProfilePage() {
       ) : isDataLoaded ? (
         <div className="pb-4 md:px-24 md:mt-4 md:pb-10">
           <PageHeaderTitle
-            title="PROFIL GUNTURU"
-            description="Mengenal lebih dekat Gunturu"
+            title="PROFIL DESA GUNTURU"
+            description="Mengenal lebih dekat Desa Gunturu"
             bgSkyOnly
           />
 
@@ -148,7 +148,7 @@ export default function VillageProfilePage() {
             </div>
           </div>
 
-          {/* GALERI GUNTURU */}
+          {/* GALERI DESA GUNTURU */}
           <div className="mt-10 md:mt-24">
             <h1 className="text-2xl font-bold text-center mb-2 text-sky-700 md:text-4xl md:text-start">
               GALERI

@@ -71,7 +71,7 @@ export default function Navbar({ isCarouselPassed }) {
               : "text-white"
           } transition-colors duration-500`}
         >
-          <h1 className="-mt-1 text-2xl font-serif font-bold">Gunturu</h1>
+          <h1 className="-mt-1 text-2xl font-serif font-bold">Desa Gunturu</h1>
           <p className="ms-0.5 mt-0.5 font-sans font-semibold uppercase">
             Kab. Bulukumba
           </p>

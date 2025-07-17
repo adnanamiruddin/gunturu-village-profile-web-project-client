@@ -38,7 +38,7 @@ export default function SchedulesPage() {
       ) : isDataLoaded ? (
         <div className="pb-4 md:px-24 md:mt-4 md:pb-10">
           <PageHeaderTitle
-            title="ACARA GUNTURU"
+            title="ACARA DESA GUNTURU"
             description="Acara terbaru seputar Desa Gunturu"
           />
 

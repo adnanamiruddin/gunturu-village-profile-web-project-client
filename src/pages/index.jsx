@@ -172,12 +172,12 @@ export default function HomePage() {
           <div className="flex flex-col gap-8 md:flex-row md:gap-12">
             <div className="md:w-[55%]">
               <h1 className="text-2xl font-bold text-center mb-4 text-sky-700 md:text-4xl md:mb-6">
-                JELAJAHI GUNTURU
+                JELAJAHI DESA GUNTURU
               </h1>
               <p className="text-justify px-1 md:text-lg">
                 Melalui website ini, Anda dapat menjelajahi segala hal yang
-                terkait dengan Gunturu. Aspek pemerintahan, penduduk, demografi,
-                potensi, dan juga berita tentang Gunturu.
+                terkait dengan Desa Gunturu. Aspek pemerintahan, penduduk,
+                demografi, potensi, dan juga berita tentang Desa Gunturu.
               </p>
             </div>
 
@@ -262,7 +262,7 @@ export default function HomePage() {
           {/* PETA */}
           <div className="mt-10 md:mt-24">
             <h1 className="text-2xl font-bold text-center mb-2 text-sky-700 md:text-4xl md:text-start">
-              LOKASI GUNTURU
+              LOKASI DESA GUNTURU
             </h1>
             <p className="text-center mb-4 px-6 md:text-start md:px-0 md:text-lg">
               Menampilkan peta desa dengan kantor lurah sebagai patokan
@@ -393,7 +393,7 @@ export default function HomePage() {
             </HrefGradientButton>
           </div>
 
-          {/* GALERI GUNTURU */}
+          {/* GALERI DESA GUNTURU */}
           <div className="mt-10 md:mt-24">
             <h1 className="text-2xl font-bold text-center mb-2 text-sky-700 md:text-4xl md:text-start">
               GALERI

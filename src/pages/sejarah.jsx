@@ -44,7 +44,7 @@ export default function HistoryPage() {
           <div className="md:-mt-3 md:py-2 md:border-4 md:border-white md:bg-white md:rounded-lg">
             <Image
               src={historyData.coverImageURL || "/image-home-hero.jpg"}
-              alt="Sejarah Gunturu"
+              alt="Sejarah Desa Gunturu"
               width={500}
               height={500}
               className="w-full h-full object-contain rounded md:w-[70%] md:h-[32rem] md:mx-auto"

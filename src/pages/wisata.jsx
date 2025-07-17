@@ -47,7 +47,7 @@ export default function TouristSpotPage() {
           <div className="md:-mt-3 md:py-2 md:border-4 md:border-white md:bg-white md:rounded-lg">
             <Image
               src={touristSpotData.coverImageURL || "/image-home-hero.jpg"}
-              alt="Peta Spot Wisata Gunturu"
+              alt="Peta Spot Wisata Desa Gunturu"
               width={500}
               height={500}
               className="w-full h-full object-contain rounded md:w-[70%] md:h-[32rem] md:mx-auto"

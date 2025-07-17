@@ -40,7 +40,7 @@ export default function NewsPage() {
       ) : isDataLoaded ? (
         <div className="pb-4 md:px-24 md:mt-4 md:pb-10">
           <PageHeaderTitle
-            title="BERITA Gunturu"
+            title="BERITA DESA"
             description="Berita terbaru seputar Desa Gunturu"
           />
 
