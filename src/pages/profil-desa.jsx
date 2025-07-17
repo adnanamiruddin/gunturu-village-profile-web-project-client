@@ -82,15 +82,15 @@ export default function VillageProfilePage() {
       ) : isDataLoaded ? (
         <div className="pb-4 md:px-24 md:mt-4 md:pb-10">
           <PageHeaderTitle
-            title="PROFIL SIBULU"
-            description="Mengenal lebih dekat Sibulu"
+            title="PROFIL GUNTURU"
+            description="Mengenal lebih dekat Gunturu"
             bgSkyOnly
           />
 
           {/* VISI DAN MISI */}
           <div className="mt-12 md:mt-24">
             <h1 className="text-2xl font-bold text-center mb-4 text-sky-700 md:text-4xl">
-              VISI DAN MISI KELURAHAN
+              VISI DAN MISI DESA
             </h1>
 
             <div className="bg-transparent md:flex md:bg-white md:p-2 md:border md:border-gray-200 md:shadow-lg md:rounded-lg">
@@ -106,7 +106,7 @@ export default function VillageProfilePage() {
               </div>
 
               <div className="mt-2 bg-white rounded py-4 px-6 flex flex-col gap-4 md:mt-0 md:w-[45%] md:bg-transparent">
-                <Dropdown title="Visi Desa Sibulu">
+                <Dropdown title="Visi Desa Gunturu">
                   <div
                     className="sanitized-content"
                     dangerouslySetInnerHTML={{
@@ -115,7 +115,7 @@ export default function VillageProfilePage() {
                   ></div>
                 </Dropdown>
 
-                <Dropdown title="Misi Desa Sibulu" showBorderTop>
+                <Dropdown title="Misi Desa Gunturu" showBorderTop>
                   <div
                     className="sanitized-content"
                     dangerouslySetInnerHTML={{
@@ -133,7 +133,7 @@ export default function VillageProfilePage() {
               SOTK
             </h1>
             <p className="text-center mb-4 px-6 md:text-start md:px-0 md:text-lg">
-              Struktur Organisasi dan Tata Kerja Desa Sibulu
+              Struktur Organisasi dan Tata Kerja Desa Gunturu
             </p>
 
             <div className="flex gap-4 overflow-auto md:grid grid-cols-4">
@@ -148,13 +148,13 @@ export default function VillageProfilePage() {
             </div>
           </div>
 
-          {/* GALERI SIBULU */}
+          {/* GALERI GUNTURU */}
           <div className="mt-10 md:mt-24">
             <h1 className="text-2xl font-bold text-center mb-2 text-sky-700 md:text-4xl md:text-start">
               GALERI
             </h1>
             <p className="text-center mb-6 px-6 md:text-start md:px-0 md:text-lg">
-              Menampilkan foto-foto di sekitar Desa Sibulu
+              Menampilkan foto-foto di sekitar Desa Gunturu
             </p>
 
             <div className="grid grid-cols-1 gap-2 md:grid-cols-3 md:gap-4">

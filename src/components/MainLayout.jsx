@@ -51,7 +51,7 @@ export default function MainLayout({ children }) {
   return (
     <>
       <Head>
-        <title>Desa Sibulu</title>
+        <title>Desa Gunturu</title>
       </Head>
 
       {/* Config React Toastify START */}

@@ -71,7 +71,7 @@ export default function Navbar({ isCarouselPassed }) {
               : "text-white"
           } transition-colors duration-500`}
         >
-          <h1 className="-mt-1 text-2xl font-serif font-bold">Sibulu</h1>
+          <h1 className="-mt-1 text-2xl font-serif font-bold">Gunturu</h1>
           <p className="ms-0.5 mt-0.5 font-sans font-semibold uppercase">
             Kab. Bulukumba
           </p>
@@ -115,9 +115,9 @@ export default function Navbar({ isCarouselPassed }) {
                 className="w-14 h-14 object-contain"
               />
               <div>
-                <h1 className="text-2xl font-serif font-bold">Si</h1>
+                <h1 className="text-2xl font-serif font-bold">Desa Bunturu</h1>
                 <p className="ms-0.5 font-sans font-semibold uppercase">
-                  Kec. Kajang, Kab. Bulukumba
+                  Kec. Herlang, Kab. Bulukumba
                 </p>
               </div>
             </div>

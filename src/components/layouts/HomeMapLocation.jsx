@@ -27,7 +27,7 @@ export default function HomeMapLocation() {
         icon: customIcon,
       })
         .addTo(mapRef.current)
-        .bindPopup("Kantor Desa Sibulu")
+        .bindPopup("Kantor Desa Gunturu")
         .openPopup();
 
       marker.on("click", () => {

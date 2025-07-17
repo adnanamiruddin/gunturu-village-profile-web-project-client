@@ -19,20 +19,20 @@ export default function HomeHero() {
         <MotionDiv y={-100} delay={1}>
           {/* Mobile View START */}
           <h1 className="md:hidden text-2xl font-bold drop-shadow-xl">
-            Selamat Datang di Website Resmi Desa Sibulu
+            Selamat Datang di Website Resmi Desa Gunturu
           </h1>
           {/* Mobile View END */}
 
           {/* Desktop View START */}
           <h1 className="hidden md:inline text-5xl font-bold tracking-wide drop-shadow-xl">
             <p> Selamat Datang</p>
-            <p className="mt-2"> di Website Resmi Desa Sibulu</p>
+            <p className="mt-2"> di Website Resmi Desa Gunturu</p>
           </h1>
           {/* Desktop View END */}
         </MotionDiv>
 
         <MotionDiv y={100} delay={1}>
-          <p className="mt-4 md:text-2xl">Desa Sibulu, Kabupaten Bulukumba</p>
+          <p className="mt-4 md:text-2xl">Desa Gunturu, Kabupaten Bulukumba</p>
         </MotionDiv>
       </div>
     </div>

@@ -86,7 +86,7 @@ export default function LoginPage() {
         />
         {/*  */}
         <h2 className="text-3xl font-semibold text-blue-950">
-          Desa Sibulu, Kecamatan Kajang, Kab. Bulukumba
+          Desa Gunturu, Kecamatan Herlang, Kab. Bulukumba
         </h2>
       </div>
 
@@ -94,7 +94,7 @@ export default function LoginPage() {
         <Image
           priority
           src="/image-home-hero.jpg"
-          alt="Desa Sibulu"
+          alt="Desa Gunturu"
           width={500}
           height={500}
           className="w-[50%] h-[90vh] object-fill"

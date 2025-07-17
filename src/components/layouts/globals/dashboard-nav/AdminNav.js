@@ -101,7 +101,7 @@ export const AdminNav = [
     items: mainNavItems,
   },
   {
-    title: "PROFIL KELURAHAN",
+    title: "PROFIL DESA",
     items: villageProfileNavItems,
   },
   {

@@ -40,8 +40,8 @@ export default function NewsPage() {
       ) : isDataLoaded ? (
         <div className="pb-4 md:px-24 md:mt-4 md:pb-10">
           <PageHeaderTitle
-            title="BERITA Sibulu"
-            description="Berita terbaru seputar Desa Sibulu"
+            title="BERITA Gunturu"
+            description="Berita terbaru seputar Desa Gunturu"
           />
 
           <div className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-6">

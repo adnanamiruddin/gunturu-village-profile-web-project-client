@@ -172,12 +172,12 @@ export default function HomePage() {
           <div className="flex flex-col gap-8 md:flex-row md:gap-12">
             <div className="md:w-[55%]">
               <h1 className="text-2xl font-bold text-center mb-4 text-sky-700 md:text-4xl md:mb-6">
-                JELAJAHI SIBULU
+                JELAJAHI GUNTURU
               </h1>
               <p className="text-justify px-1 md:text-lg">
                 Melalui website ini, Anda dapat menjelajahi segala hal yang
-                terkait dengan Sibulu. Aspek pemerintahan, penduduk, demografi,
-                potensi, dan juga berita tentang Sibulu.
+                terkait dengan Gunturu. Aspek pemerintahan, penduduk, demografi,
+                potensi, dan juga berita tentang Gunturu.
               </p>
             </div>
 
@@ -228,7 +228,7 @@ export default function HomePage() {
 
             <div className="md:w-[60%]">
               <h1 className="text-2xl font-bold text-center mb-4 text-sky-700 md:text-4xl md:text-start">
-                SAMBUTAN KEPALA KELURAHAN
+                SAMBUTAN KEPALA DESA
               </h1>
 
               <div className="flex flex-col gap-6">
@@ -262,7 +262,7 @@ export default function HomePage() {
           {/* PETA */}
           <div className="mt-10 md:mt-24">
             <h1 className="text-2xl font-bold text-center mb-2 text-sky-700 md:text-4xl md:text-start">
-              LOKASI SIBULU
+              LOKASI GUNTURU
             </h1>
             <p className="text-center mb-4 px-6 md:text-start md:px-0 md:text-lg">
               Menampilkan peta desa dengan kantor lurah sebagai patokan
@@ -283,7 +283,7 @@ export default function HomePage() {
               SOTK
             </h1>
             <p className="text-center mb-4 px-6 md:text-start md:px-0 md:text-lg">
-              Struktur Organisasi dan Tata Kerja Desa Sibulu
+              Struktur Organisasi dan Tata Kerja Desa Gunturu
             </p>
 
             <div className="flex gap-4 overflow-auto">
@@ -393,13 +393,13 @@ export default function HomePage() {
             </HrefGradientButton>
           </div>
 
-          {/* GALERI SIBULU */}
+          {/* GALERI GUNTURU */}
           <div className="mt-10 md:mt-24">
             <h1 className="text-2xl font-bold text-center mb-2 text-sky-700 md:text-4xl md:text-start">
               GALERI
             </h1>
             <p className="text-center mb-6 px-6 md:text-start md:px-0 md:text-lg">
-              Menampilkan foto-foto di sekitar Desa Sibulu
+              Menampilkan foto-foto di sekitar Desa Gunturu
             </p>
 
             <div className="grid grid-cols-1 gap-2 md:grid-cols-3 md:gap-4">
@@ -420,7 +420,7 @@ export default function HomePage() {
               AGENDA ACARA
             </h1>
             <p className="text-center mb-6 px-6 md:text-start md:px-0 md:text-lg">
-              Jadwal acara yang akan dilaksanakan di Desa Sibulu
+              Jadwal acara yang akan dilaksanakan di Desa Gunturu
             </p>
 
             <div className="flex gap-4 overflow-auto">
@@ -445,7 +445,7 @@ export default function HomePage() {
               BERITA TERBARU
             </h1>
             <p className="text-center mb-6 px-6 md:text-start md:px-0 md:text-lg">
-              Informasi berita terbaru seputar Desa Sibulu
+              Informasi berita terbaru seputar Desa Gunturu
             </p>
 
             <div className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-6">

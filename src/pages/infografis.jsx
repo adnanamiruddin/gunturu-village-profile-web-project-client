@@ -69,7 +69,7 @@ export default function InfographicsPage() {
         <div className="pb-4 md:px-24 md:mt-4 md:pb-10">
           <PageHeaderTitle
             title="INFOGRAFIS"
-            description="Infografis seputar Desa Sibulu"
+            description="Infografis seputar Desa Gunturu"
           />
 
           <div>

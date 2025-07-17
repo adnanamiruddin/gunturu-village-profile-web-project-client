@@ -13,7 +13,7 @@ export default function DashboardLogo() {
           className="w-14 h-14 object-contain"
         />
         <div className="ms-2 -mt-1">
-          <p className="text-2xl font-serif font-bold">Sibulu</p>
+          <p className="text-2xl font-serif font-bold">Gunturu</p>
           <p className="mt-1 font-sans font-semibold uppercase">
             Kab. Bulukumba
           </p>

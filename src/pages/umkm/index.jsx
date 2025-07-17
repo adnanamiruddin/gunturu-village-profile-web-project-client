@@ -39,7 +39,7 @@ export default function UmkmPage() {
         <div className="pb-4 md:px-24 md:mt-4 md:pb-10">
           <PageHeaderTitle
             title="UMKM"
-            description="Informasi seputar UMKM di Desa Sibulu"
+            description="Informasi seputar UMKM di Desa Gunturu"
           />
 
           <div className="grid grid-cols-1 gap-5 overflow-auto md:grid-cols-3 md:gap-4">

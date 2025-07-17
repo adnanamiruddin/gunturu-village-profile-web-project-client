@@ -41,13 +41,13 @@ export default function TouristSpotPage() {
         <div className="pb-4 md:px-24 md:mt-4 md:pb-10">
           <PageHeaderTitle
             title="SPOT WISATA"
-            description="Spot wisata di Desa Sibulu"
+            description="Spot wisata di Desa Gunturu"
           />
 
           <div className="md:-mt-3 md:py-2 md:border-4 md:border-white md:bg-white md:rounded-lg">
             <Image
               src={touristSpotData.coverImageURL || "/image-home-hero.jpg"}
-              alt="Peta Spot Wisata Sibulu"
+              alt="Peta Spot Wisata Gunturu"
               width={500}
               height={500}
               className="w-full h-full object-contain rounded md:w-[70%] md:h-[32rem] md:mx-auto"
