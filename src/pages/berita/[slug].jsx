@@ -27,9 +27,11 @@ export default function NewsDetailPage() {
     const { response, error } = await blogsApi.getBlogBySlug({
       slug,
     });
-    if (response) {
+    if (response && response.status === "published") {
       setBlogData(response);
       fetchAnotherBlogsData();
+    } else {
+      setErrorDataLoaded(true);
     }
     if (error) {
       toast.error(error.message);
